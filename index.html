@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RX1_Assignment</title>
+  </head>
+  <body>
+    <h1>Add Task</h1>
+    <form id="add-task-form">
+      <input type="text" id="task-name" placeholder="Task Name" />
+      <input type="text" id="task-description" placeholder="Task Description" />
+      <button type="submit">Add Task</button>
+    </form>
+
+    <h1>Remove Task</h1>
+    <form id="remove-task-form">
+      <input type="number" id="task-id" placeholder="Task ID" />
+      <button type="submit">Remove Task</button>
+    </form>
+
+    <div id="task-list"></div>
+    
+    <div id="total-tasks"></div>
+
+    <script type="module" src="./src/script.js"></script>
+  </body>
+</html>
